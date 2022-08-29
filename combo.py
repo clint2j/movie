@@ -1,5 +1,5 @@
-myfile = open("titles2.csv", "r")
-file2 = open("titles.csv", "w")
+file = open("ratings.csv", "r")
+file2 = open("titles.csv", "r")
 for line in myfile:
     l = line.split(",")
     if (l[1]=="movie"):
